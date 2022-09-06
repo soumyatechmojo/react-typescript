@@ -1,11 +1,12 @@
 type greetProp = {
-    name:string
+    name:string,
+    season:number
 } 
 
 const Greet = (props:greetProp) => {
   return (
     <div>
-        <h2>Welcome {} to my Typescript Class</h2>
+        <h2> Welcome {props.name} to my Typescript {props.season} Class </h2>
     </div>
   )
 }
