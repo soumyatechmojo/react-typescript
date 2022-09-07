@@ -6,7 +6,7 @@ function App() {
   
   return (
     <div>
-      <Greet name = 'Soumyadeep' season = {35} />
+      <Greet name = 'Soumyadeep' season = {35} isLoggedin = {false} />
     </div>
   );
 }

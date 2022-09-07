@@ -3,9 +3,7 @@ import React from 'react'
 const newPerson = () => {
   return (
 
-    <div>
-      
-    </div>
+    <div></div>
   )
 }
 
